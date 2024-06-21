@@ -10,5 +10,4 @@ Para rodar o arquivo, algumas depêndencias são necessárias:
 -> Keras-Preprocessing
 -> pillow
 -> numpy
-
--------------------------------------------
+## Run GetValid para distribuir arquivos caso os diretórios estejam vazios.
