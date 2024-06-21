@@ -1,11 +1,12 @@
 from keras_preprocessing.image import load_img
 from keras_preprocessing import image
 # AttributeError: 'NoneType' object has no attribute 'image_data_format'
-from keras_applications.resnet50 import decode_predictions, preprocess_input
 import numpy as np
+import keras
+from tf_keras.applications.imagenet_utils import preprocess_input
 
 
-image = load_img('./data/teste.jpeg', target_size=(224, 224))
+image = load_img('data/teste.jpeg', target_size=(224, 224))
 
 image = np.array(image)
 
