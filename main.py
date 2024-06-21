@@ -11,8 +11,9 @@ batch_size = 32
 num_classes = 10  # Altere para o número de classes no seu conjunto de dados
 
 # Caminhos para os diretórios dos dados
-train_data_dir = 'data/'
-validation_data_dir = 'validation/'
+
+train_data_dir = 'data'
+validation_data_dir = 'validation'
 test_data_dir = 'dataout'
 
 # Carregar o modelo VGG16 sem as camadas de topo
