@@ -7,14 +7,14 @@ from tf_keras.optimizers import Adam
 
 # Configurações básicas
 img_height, img_width = 224, 224
-batch_size = 32
-num_classes = 10  # Altere para o número de classes no seu conjunto de dados
+batch_size = 4
+num_classes = 1  # Altere para o número de classes no seu conjunto de dados
 
 # Caminhos para os diretórios dos dados
 
 train_data_dir = 'data'
-validation_data_dir = 'validation'
-test_data_dir = 'dataout'
+validation_data_dir = 'valid_data'
+test_data_dir = 'test_data'
 
 # Carregar o modelo VGG16 sem as camadas de topo
 base_model = VGG16(weights='imagenet', include_top=False, input_shape=(img_height, img_width, 3))
