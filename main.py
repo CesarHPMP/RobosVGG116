@@ -1,8 +1,7 @@
+from cv2 import WINDOW_AUTOSIZE, destroyAllWindows, imread, imshow, namedWindow, waitKey
 from keras_preprocessing.image import load_img
 from keras_preprocessing import image
-# AttributeError: 'NoneType' object has no attribute 'image_data_format'
 import numpy as np
-import keras
 from tf_keras.applications.imagenet_utils import preprocess_input
 
 
@@ -13,3 +12,11 @@ image = np.array(image)
 image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))
 
 image = preprocess_input(image)
+
+namedWindow("show", WINDOW_AUTOSIZE)
+
+my_img = imread('data/teste.jpeg')
+imshow('show', my_img)
+
+waitKey(0)
+destroyAllWindows()
