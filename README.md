@@ -2,6 +2,8 @@
 
 ## Para rodar o arquivo, algumas depêndencias são necessárias
 
+## Para rodar o arquivo, algumas depêndencias são necessárias
+
 ### -> tensorboard 2.16
 
 ### -> tensorflow
@@ -17,3 +19,6 @@
 ### -> pillow
 
 ### -> numpy
+
+## Run GetValid para distribuir arquivos caso os diretórios estejam vazios
+
