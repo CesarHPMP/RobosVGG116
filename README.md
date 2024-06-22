@@ -19,4 +19,3 @@
 ### -> numpy
 
 ## Run GetValid para distribuir arquivos caso os diretórios estejam vazios
-
