@@ -8,7 +8,7 @@ from tf_keras.optimizers import Adam
 # Configurações básicas
 img_height, img_width = 224, 224
 batch_size = 2
-num_classes = 1  # Altere para o número de classes no seu conjunto de dados
+num_classes = 2  # Altere para o número de classes no seu conjunto de dados
 
 # Caminhos para os diretórios dos dados
 
