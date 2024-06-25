@@ -42,7 +42,7 @@ def split_data(source_dir, train_dir, val_dir, test_dir, train_ratio=0.7, val_ra
 # Example usage
 source_directory = 'alldata'
 train_directory = 'data'
-validation_directory = 'validation'
+validation_directory = 'valid_data'
 test_directory = 'test_data'
 
 split_data(source_directory, train_directory, validation_directory, test_directory)

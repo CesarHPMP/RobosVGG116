@@ -7,13 +7,13 @@ from tf_keras.optimizers import Adam
 
 # Configurações básicas
 img_height, img_width = 224, 224
-batch_size = 2
+batch_size = 4
 num_classes = 2  # Altere para o número de classes no seu conjunto de dados
 
 # Caminhos para os diretórios dos dados
 
 train_data_dir = 'data'
-validation_data_dir = 'validation'
+validation_data_dir = 'valid_data'
 test_data_dir = 'test_data'
 
 # Carregar o modelo VGG16 sem as camadas de topo
