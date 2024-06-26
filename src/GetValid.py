@@ -29,9 +29,9 @@ def split_data(source_dir, train_dir, val_dir, test_dir, train_ratio=0.7, val_ra
         for image in test_images:
             shutil.copy(os.path.join(class_path, image), os.path.join(test_dir, class_name, image))
 
-source_directory = 'alldata'
-train_directory = 'data'
-validation_directory = 'valid_data'
-test_directory = 'test_data'
+source_directory = '../alldata'
+train_directory = '../data'
+validation_directory = '../valid_data'
+test_directory = '../test_data'
 
 split_data(source_directory, train_directory, validation_directory, test_directory)
