@@ -40,5 +40,5 @@ def fill_data(source_dir, target_num=60):
         os.makedirs(class_path, exist_ok=True)
         ensure_images(class_path, class_name, target_num)
 
-source_directory = 'alldata'
+source_directory = './alldata'
 fill_data(source_directory)
