@@ -18,4 +18,6 @@
 
 ### -> numpy
 
+### caso quira usar fetch images, é necessãrio instalar também bing-images.
+
 ## Run GetValid para distribuir arquivos caso os diretórios estejam vazios
