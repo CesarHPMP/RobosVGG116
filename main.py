@@ -4,13 +4,16 @@ from tf_keras.layers import Dense, GlobalAveragePooling2D
 from tf_keras.models import Model
 from tf_keras.preprocessing.image import ImageDataGenerator
 from tf_keras.optimizers import Adam
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 # Configurações básicas
 img_height, img_width = 224, 224
-batch_size = 4
+batch_size = 3
 num_classes = 2  # Altere para o número de classes no seu conjunto de dados
 
 # Caminhos para os diretórios dos dados
+
 
 train_data_dir = 'data'
 validation_data_dir = 'valid_data'
